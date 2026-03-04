@@ -10,7 +10,7 @@ public class FindMaximumOfThreeNumberExercise {
         System.out.print("- Nhap integer 2: ");
         int n2 = kb.nextInt();
         System.out.print("- Nhap integer 3: ");
-        int n3 = jb.nextInt();
+        int n3 = kb.nextInt();
         
         int max = 0;
         if(n1>n2 && n1>n3){
@@ -18,7 +18,7 @@ public class FindMaximumOfThreeNumberExercise {
         }else if(n2>=n1 && n2>=n3){
             max = n2;
         }else{
-            max = n1;
+            max = n3;
         }
         System.out.println("-> So lon nhat la: " + max);
     }
